@@ -1,0 +1,6 @@
+- name: test role
+  hosts: localhost
+  connection: local
+
+  roles:
+  - myrole
